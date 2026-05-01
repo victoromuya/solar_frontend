@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_BASE_URL = "https://solar-api-seven.vercel.app";
+export const API_BASE_URL = "https://solar-api-ri7n.onrender.com";
 
 const API = axios.create({
   baseURL: `${API_BASE_URL}/api/v1`,
