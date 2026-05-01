@@ -36,7 +36,7 @@ export default function App() {
     <Router>
       <div className="app" data-theme={theme}>
         <nav className="navbar">
-          <h2>Solar Recommender</h2>
+          <h2>SolarRecom</h2>
 
           <div>
            
