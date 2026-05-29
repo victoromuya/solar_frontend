@@ -203,7 +203,7 @@ export default function ApplianceForm({ onResult }) {
         onClick={submit}
         disabled={loading || appliances.length === 0}
       >
-        {loading ? "Recommendation..." : "Recommend"}
+        {loading ? "Recommending..." : "Recommend"}
       </button>
     </div>
   );

@@ -65,26 +65,7 @@ export default function ResultCard({ data, onClose }) {
           <p className="cost-note">{recommendation.cost_note}</p>
         )}
 
-        {/* {recommendation?.cost_source && (
-          <div className="cost-source">
-            <span>Cost source</span>
-            {Array.isArray(recommendation.cost_source) ? (
-              recommendation.cost_source.map((source) => (
-                <a key={source} href={source} target="_blank" rel="noreferrer">
-                  {source}
-                </a>
-              ))
-            ) : (
-              <a
-                href={recommendation.cost_source}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {recommendation.cost_source}
-              </a>
-            )}
-          </div>
-        )} */}
+      
       </div>
     </div>
   );
